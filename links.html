@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>NUTTIN' — Links</title>
+  <meta name="description" content="Semua link NUTTIN' Trail Mix: belanja di Shopee, TikTok Shop, Tokopedia, dan ikuti kami di Instagram & TikTok.">
+  <meta name="theme-color" content="#FF8A00">
+  <meta property="og:title" content="NUTTIN' — Nuttin' Boring Here.">
+  <meta property="og:description" content="Trail mix 10 bahan berkualitas dalam 1 mix. Belanja & ikuti NUTTIN' di sini.">
+  <meta property="og:image" content="assets/video/ad1.jpg">
+  <link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@700;800&family=Balsamiq+Sans:ital,wght@1,700&family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+  <style>
+    :root { --brown: #3A2416; --orange: #FF8A00; --orange-deep: #B85A00; --orange-soft: #FFB347; --cream: #FFF7E8; --cream-2: #FCEBCB; --muted: #6B5141; }
+    * { box-sizing: border-box; }
+    html, body { margin: 0; }
+    body {
+      min-height: 100vh; font-family: 'Poppins', system-ui, sans-serif; color: var(--brown); line-height: 1.5;
+      background: var(--cream);
+      background-image: radial-gradient(circle at 0% 100%, var(--orange) 0 180px, transparent 181px), radial-gradient(circle at 100% 0%, var(--brown) 0 130px, transparent 131px);
+      background-attachment: fixed;
+    }
+    :focus-visible { outline: 3px solid var(--orange); outline-offset: 3px; border-radius: 12px; }
+    .page { width: min(480px, 100% - 32px); margin: 0 auto; padding: 40px 0 32px; text-align: center; }
+    .avatar { width: 120px; height: 120px; margin: 0 auto 14px; border-radius: 50%; background: var(--orange); border: 5px solid var(--brown); display: grid; place-items: center; overflow: hidden; box-shadow: 0 10px 24px rgba(58,36,22,.2); }
+    .avatar img { width: 82%; height: auto; margin-top: 18%; filter: drop-shadow(0 6px 8px rgba(58,36,22,.3)); }
+    h1 { font-family: 'Baloo 2', sans-serif; font-weight: 800; font-size: 2.4rem; line-height: 1; margin: 0; display: inline-flex; align-items: flex-start; }
+    h1 .nut { width: .3em; height: .3em; border-radius: 50%; margin-left: .05em; background: radial-gradient(circle at 35% 35%, var(--orange-soft), var(--orange) 55%, #D96F00); }
+    .tag { font-family: 'Balsamiq Sans', cursive; font-style: italic; font-weight: 700; color: var(--orange-deep); font-size: 1.2rem; margin: 6px 0 4px; }
+    .bio { color: var(--muted); font-size: .95rem; margin: 0 auto 22px; max-width: 360px; }
+    .socials { display: flex; justify-content: center; gap: 12px; margin-bottom: 24px; }
+    .socials a { width: 48px; height: 48px; border-radius: 50%; display: grid; place-items: center; background: var(--brown); color: var(--cream); transition: transform .18s, background-color .18s; }
+    .socials a:hover { transform: translateY(-3px); background: var(--orange); color: var(--brown); }
+    .socials svg { width: 22px; height: 22px; }
+    .links { list-style: none; padding: 0; margin: 0; display: grid; gap: 14px; }
+    .link {
+      display: flex; align-items: center; gap: 14px; min-height: 64px; padding: 10px 18px 10px 10px;
+      background: #fff; color: var(--brown); text-decoration: none; text-align: left;
+      border: 3px solid var(--brown); border-radius: 20px; box-shadow: 0 5px 0 var(--brown);
+      transition: transform .18s ease, box-shadow .18s ease;
+    }
+    .link:hover { transform: translateY(-2px); box-shadow: 0 7px 0 var(--brown); }
+    .link:active { transform: translateY(3px); box-shadow: 0 2px 0 var(--brown); }
+    .link .ic { flex: none; width: 44px; height: 44px; border-radius: 14px; display: grid; place-items: center; background: var(--orange); color: var(--brown); }
+    .link .ic svg { width: 22px; height: 22px; }
+    .link b { display: block; font-family: 'Baloo 2', sans-serif; font-weight: 800; font-size: 1.2rem; line-height: 1.1; }
+    .link small { display: block; color: var(--muted); font-size: .82rem; }
+    .link .arrow { margin-left: auto; font-weight: 700; color: var(--orange-deep); }
+    .link--main { background: var(--orange); }
+    .link--main .ic { background: var(--brown); color: var(--cream); }
+    .link--main small { color: var(--brown); }
+    .link--main .arrow { color: var(--brown); }
+    .products { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; margin: 26px 0 8px; }
+    .prod { background: #fff; border-radius: 20px; padding: 14px 10px 12px; box-shadow: 0 10px 24px rgba(58,36,22,.1); text-decoration: none; color: inherit; transition: transform .2s; }
+    .prod:hover { transform: translateY(-3px); }
+    .prod img { height: 110px; width: auto; margin: 0 auto 6px; display: block; filter: drop-shadow(0 8px 10px rgba(58,36,22,.25)); }
+    .prod b { display: block; font-family: 'Baloo 2', sans-serif; font-weight: 800; font-size: 1.05rem; }
+    .prod span { font-family: 'Baloo 2', sans-serif; font-weight: 800; color: var(--orange-deep); font-size: 1.3rem; }
+    .section-title { font-family: 'Baloo 2', sans-serif; font-weight: 800; font-size: 1.3rem; margin: 28px 0 0; }
+    footer { margin-top: 30px; font-size: .8rem; color: var(--muted); }
+    footer a { color: var(--orange-deep); font-weight: 600; }
+    @media (prefers-reduced-motion: reduce) { * { transition: none !important; } }
+  </style>
+</head>
+<body>
+<main class="page">
+  <div class="avatar"><img src="assets/img/jar200-sm.webp" width="428" height="450" alt="Jar NUTTIN' Trail Mix"></div>
+  <h1>NUTTIN<span class="nut" aria-hidden="true"></span></h1>
+  <p class="tag">Nuttin’ Boring Here.</p>
+  <p class="bio">Trail mix asal Medan — 10 bahan berkualitas dalam 1 mix. Tanpa pengawet, tinggi serat, sumber protein.</p>
+
+  <nav class="socials" aria-label="Media sosial">
+    <a href="https://www.instagram.com/nuttin.co?stkn=MXM5eWNsd3lpMHB6aA==" target="_blank" rel="noopener" aria-label="Instagram @nuttin.co"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><rect x="3.5" y="3.5" width="17" height="17" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.3" cy="6.7" r=".6" fill="currentColor"/></svg></a>
+    <a href="https://www.tiktok.com/@nuttin.co?_r=1&amp;_t=ZS-9ANVLg5MFNd" target="_blank" rel="noopener" aria-label="TikTok @nuttin.co"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M14 3v11.5a3.5 3.5 0 1 1-3.5-3.5"/><path d="M14 3c.5 2.6 2.4 4.4 5 4.6"/></svg></a>
+  </nav>
+
+  <ul class="links">
+    <li><a class="link link--main" href="https://id.shp.ee/QFvZnTkS" target="_blank" rel="noopener"><span class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 8h14l-1.2 12H6.2z"/><path d="M9 8V6a3 3 0 0 1 6 0v2"/></svg></span><span><b>Belanja di Shopee</b><small>200 g &amp; 500 g tersedia</small></span><span class="arrow" aria-hidden="true">→</span></a></li>
+    <li><a class="link" href="https://vt.tiktok.com/ZSbyNtGrv/" target="_blank" rel="noopener"><span class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 8h14l-1.2 12H6.2z"/><path d="M9 8V6a3 3 0 0 1 6 0v2"/></svg></span><span><b>Belanja di TikTok Shop</b><small>Checkout langsung dari TikTok</small></span><span class="arrow" aria-hidden="true">→</span></a></li>
+    <li><a class="link" href="https://tk.tokopedia.com/ZSbgwoMDU/" target="_blank" rel="noopener"><span class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 8h14l-1.2 12H6.2z"/><path d="M9 8V6a3 3 0 0 1 6 0v2"/></svg></span><span><b>Belanja di Tokopedia</b><small>Toko resmi NUTTIN’</small></span><span class="arrow" aria-hidden="true">→</span></a></li>
+    <li><a class="link" href="/"><span class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3c2.5 2.6 3.8 5.6 3.8 9s-1.3 6.4-3.8 9c-2.5-2.6-3.8-5.6-3.8-9S9.5 5.6 12 3z"/></svg></span><span><b>Website NUTTIN’</b><small>Cerita, isi mix &amp; manfaatnya</small></span><span class="arrow" aria-hidden="true">→</span></a></li>
+    <li><a class="link" href="/#mix"><span class="ic"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l2.2 6.3L20.5 10l-6.3 2.2L12 18.5l-2.2-6.3L3.5 10l6.3-1.7z"/></svg></span><span><b>Lihat 10 Bahan di Dalamnya</b><small>Kacang, biji-bijian &amp; buah kering</small></span><span class="arrow" aria-hidden="true">→</span></a></li>
+    <li><a class="link" href="/#watch"><span class="ic"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M8 5v14l11-7z"/></svg></span><span><b>Tonton Iklan NUTTIN’</b><small>Nuttin’ Boring Here.</small></span><span class="arrow" aria-hidden="true">→</span></a></li>
+  </ul>
+
+  <p class="section-title">Pilih ukuranmu</p>
+  <div class="products">
+    <a class="prod" href="https://id.shp.ee/QFvZnTkS" target="_blank" rel="noopener"><img src="assets/img/jar200-sm.webp" width="428" height="450" alt="NUTTIN’ Trail Mix 200 g" loading="lazy"><b>200 g</b><span>Rp35.000</span></a>
+    <a class="prod" href="https://id.shp.ee/QFvZnTkS" target="_blank" rel="noopener"><img src="assets/img/jar500-sm.webp" width="339" height="500" alt="NUTTIN’ Trail Mix 500 g" loading="lazy"><b>500 g</b><span>Rp76.000</span></a>
+  </div>
+
+  <footer>© 2026 NUTTIN’ · <a href="/">nuttin-theta.vercel.app</a></footer>
+</main>
+</body>
+</html>
